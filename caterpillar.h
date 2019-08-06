@@ -9,7 +9,7 @@
 #define  CATERPILLAR_H
 
 typedef struct _Posi {            //structure permettant de stocker les coordonn�es d'un point
-    short int x, y;
+    int x, y;
 } POSITION;
 
 typedef struct _caterpillar {    //structure permettant de stocker un tableau avec les coordonn� de la chenille et sa taille
